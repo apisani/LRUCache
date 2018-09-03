@@ -16,7 +16,7 @@ Unit testing is available for that project using:
 #### Code Coverage Percentage
 80% - See below:
 ```
-MemoryCache\MemoryCache\Images\code_coverage_percentage.PNG
+MemoryCache\Images\code_coverage_percentage.PNG
 ```
 
 ### Implementation

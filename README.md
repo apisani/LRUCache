@@ -1,5 +1,5 @@
 # Fone Dynamics Memory Cache Challenge with O(1) time complexity
-## O(1) lookup time ~ O(1) insertion time ~ O(1) deletion time
+## O(1) Get Value / O(1) Add Value / O(1) Update Value
 
 LRUCache thread-safe implementation in C#, with eviction policy.
 

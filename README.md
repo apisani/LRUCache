@@ -1,4 +1,4 @@
-# Fone Dynamics Memory Cache Challenge with O(1) time complexity
+# Memory Cache
 ## O(1) Get Value / O(1) Add Value / O(1) Update Value
 
 Cache thread-safe implementation in C#, with eviction policy.

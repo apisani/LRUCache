@@ -4,9 +4,9 @@
 Cache thread-safe implementation in C#, with eviction policy.
 
 ### Documentation
-XML documentation can be found in:
+XML documentation can be found in root:
 ```
-MemoryCache\MemoryCache\bin\Debug
+cache_challenge\MemoryCache.xml
 ```
 ### Unit Testing
 Unit testing is available for that project using:

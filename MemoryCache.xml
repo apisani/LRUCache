@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MemoryCache</name>
+    </assembly>
+    <members>
+        <member name="T:MemoryCache.ICache`2">
+            <summary>
+            Interface to implement for Cache Fone Dymanic Challenge.
+            </summary>
+        </member>
+        <member name="M:MemoryCache.ICache`2.AddOrUpdate(`0,`1)">
+            <summary>
+            Adds the value to the cache against the specified key.
+            If the key already exists, its value is updated.
+            </summary>
+        </member>
+        <member name="M:MemoryCache.ICache`2.TryGetValue(`0,`1@)">
+            <summary>
+            Attempts to gets the value from the cache against the specified key
+            and returns true if the key existed in the cache.
+            </summary>
+        </member>
+        <member name="T:MemoryCache.Cache`2">
+            <summary>
+            Memory Cache Fone Dynamics challenge.
+            </summary>
+            <typeparam name="K">The key type.</typeparam>
+            <typeparam name="V">The value type.</typeparam>
+        </member>
+        <member name="M:MemoryCache.Cache`2.#ctor(System.Int32)">
+            <summary>
+            A least recently used cache using O(1) complexity
+            </summary>
+            <param name="capacity">
+            The maximum number of entries the cache will be able to hold before updating its content
+            </param>
+        </member>
+        <member name="P:MemoryCache.Cache`2.Count">
+            <summary>
+            Gets the current number of entries in the cache.
+            </summary>
+        </member>
+        <member name="P:MemoryCache.Cache`2.Capacity">
+            <summary>
+            Gets the maximum number of entries in the cache.
+            </summary>
+        </member>
+        <member name="P:MemoryCache.Cache`2.IsFull">
+            <summary>
+            Gets if the cache if full or not.
+            </summary>
+            <returns>True if full. False otherwise.</returns>
+        </member>
+        <member name="M:MemoryCache.Cache`2.TryGetValue(`0,`1@)">
+            <summary>
+            Attempts to gets the value from the cache against the specified key
+            </summary>
+            <returns>True if the key existed in the cache. False otherwise.</returns>
+        </member>
+        <member name="M:MemoryCache.Cache`2.AddOrUpdate(`0,`1)">
+            <summary>
+            Adds the value to the cache against the specified key.
+            If the key already exists, its value is updated.
+            </summary>
+            <param name="key">The cache key.</param>
+            <param name="value">The value to set in the cache.</param>
+        </member>
+        <member name="M:MemoryCache.Cache`2.MoveToHead(MemoryCache.Cache{`0,`1}.CacheNode)">
+            <summary>
+            Place the given entry to the head of the list.
+            </summary>
+            <param name="entry">The CacheNode to move up the list.</param>
+        </member>
+    </members>
+</doc>

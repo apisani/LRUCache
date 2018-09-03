@@ -13,6 +13,12 @@ Unit testing is available for that project using:
 * [NUnit](https://github.com/nunit/nunit/releases/tag/v3.10.1)
 * [NUnitAdapter](https://github.com/nunit/nunit3-vs-adapter/releases/tag/3.10)
 
+#### Code Coverage Percentage
+80% - See below:
+```
+MemoryCache\MemoryCache\Images\code_coverage_percentage.PNG
+```
+
 ### Implementation
 Below is a short snippet for a simple usage case:
 
